@@ -1,0 +1,57 @@
+title: "Natika's World of Game Designing"
+subtitle: I wanna be the BEST GAME DESIGNER!!!
+
+avatar:
+  url: /images/head1.jpg
+  rounded: true
+
+menu:
+  首页: /
+  归档: /archives/
+  标签: /tags/
+  分类: /categories/
+
+social:
+  GitHub:
+    url: https://github.com/NandCpointFM
+    icon: ""
+
+comment:
+  enable: true
+  type: valine
+  valine:
+    appId: LtWKIz47FGGAjTX3UzkrG3v4-MdYXbMMI
+    appKey: 88BC5w0dl5TOOJda5E3icJQm
+    placeholder: To make your dream come true
+    avatar: mp
+    pageSize: 10
+    lang: zh-CN
+
+back2top:
+  icon: ""
+
+search:
+  enable: false
+
+say:
+  enable: false
+
+footer:
+  icon: ""
+
+banner:
+  enable: true
+  title: 游戏不止
+  border: true
+  cloud:
+    enable: true
+    color: white
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+
+bg_image:
+  enable: true
+  url: /images/cbp59.jpg
+  dark: /images/cbp68.jpg
+  opacity: 0.7
