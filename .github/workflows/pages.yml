@@ -12,7 +12,7 @@ jobs:
         with:
           fetch-depth: 0  # 关键：拉取完整历史
           submodules: recursive
-          token: ${{ secrets.GITHUB_TOKEN}} 
+          token: ${{ secrets.GITHUB_TOKEN }} 
 
       - name: 安装Node.js  
         uses: actions/setup-node@v4  
