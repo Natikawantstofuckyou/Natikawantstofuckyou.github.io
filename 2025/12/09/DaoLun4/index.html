@@ -1,0 +1,390 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="Junwei LI"><meta name="copyright" content="Junwei LI"><meta name="generator" content="Hexo 8.1.1"><meta name="theme" content="hexo-theme-yun"><title>关于《游戏学导论》的研学记录与个人思考 - ( 4 ) | Natika_s World of Game Designing</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"nandcpointfm.github.io","root":"/","title":"游戏不止","version":"1.10.11","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","fireworks":{"colors":null},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><meta name="description" content="参考资料：华中科技大学-熊硕《游戏学导论》（系列课程）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于《游戏学导论》的研学记录与个人思考 - ( 4 )">
+<meta property="og:url" content="https://nandcpointfm.github.io/2025/12/09/DaoLun4/index.html">
+<meta property="og:site_name" content="Natika_s World of Game Designing">
+<meta property="og:description" content="参考资料：华中科技大学-熊硕《游戏学导论》（系列课程）">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-12-09T05:00:00.000Z">
+<meta property="article:modified_time" content="2025-12-12T08:44:31.393Z">
+<meta property="article:author" content="Junwei LI">
+<meta property="article:tag" content="游戏设计">
+<meta property="article:tag" content="理论知识">
+<meta name="twitter:card" content="summary"><script>(function() {
+  if (CONFIG.mode !== 'auto') return
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="Table of Contents"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="Overview"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="Junwei LI"><img width="96" loading="lazy" src="/images/head1.jpg" alt="Junwei LI"></a><div class="site-author-name"><a href="/about/">Junwei LI</a></div><span class="site-name">Natika_s World of Game Designing</span><sub class="site-subtitle">I wanna be the BEST GAME DESIGNER.</sub><div class="site-description">a personal blog for sharing my thoughts about the GREATEST GAMES</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="Home"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="Archives"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">5</span></a></div><div class="site-state-item"><a href="/categories/" title="Categories"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">2</span></a></div><div class="site-state-item"><a href="/tags/" title="Tags"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">2</span></a></div><a class="site-state-item hty-icon-button" target="_blank" rel="noopener" href="https://yun.yunyoujun.cn" title="文档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:settings-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" target="_blank" style="color:undefined"><i></i></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%B8%B8%E6%88%8F%E7%AD%96%E5%88%92%C2%B7%E8%B5%B7%E6%89%8B%E5%BC%8F%EF%BC%8C%E9%9C%80%E6%B1%82%E4%B8%8E%E6%8A%80%E5%B7%A7"><span class="toc-number">1.</span> <span class="toc-text">四、游戏策划·起手式，需求与技巧</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%A1%86%E6%9E%B6%EF%BC%88Framework%EF%BC%89"><span class="toc-number">1.1.</span> <span class="toc-text">游戏设计的框架（Framework）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E5%AD%A6%E7%9A%84%E4%B8%89%E5%A4%A7%E6%B5%81%E6%B4%BE"><span class="toc-number">1.1.1.</span> <span class="toc-text">游戏学的三大流派</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8D%E6%80%9D-4-1"><span class="toc-number">1.2.</span> <span class="toc-text">反思-4.1</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9F%BA%E4%BA%8ELudology%E7%9A%84%E6%B8%B8%E6%88%8F%E5%AD%A6%E6%A1%86%E6%9E%B6%EF%BC%9A"><span class="toc-number">1.2.1.</span> <span class="toc-text">基于Ludology的游戏学框架：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#MDA%E6%A1%86%E6%9E%B6"><span class="toc-number">1.2.2.</span> <span class="toc-text">MDA框架</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9C%80%E6%B1%82%E4%B8%8E%E7%94%A8%E6%88%B7"><span class="toc-number">1.3.</span> <span class="toc-text">需求与用户</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BF%83%E7%90%86%E7%9A%84%E6%84%89%E6%82%A6%E4%B8%8E%E7%8E%B0%E5%AE%9E"><span class="toc-number">1.3.1.</span> <span class="toc-text">心理的愉悦与现实</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%A9%AC%E6%96%AF%E6%B4%9B%E5%B1%82%E6%AC%A1%E7%90%86%E8%AE%BA"><span class="toc-number">1.3.2.</span> <span class="toc-text">马斯洛层次理论</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E9%9C%80%E6%B1%82"><span class="toc-number">1.3.3.</span> <span class="toc-text">游戏需求</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%B4%E7%89%B9%E5%B0%94%E7%9A%84%E7%8E%A9%E5%AE%B6%E5%88%86%E7%B1%BB%E7%90%86%E8%AE%BA"><span class="toc-number">1.3.4.</span> <span class="toc-text">巴特尔的玩家分类理论</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8D%E6%80%9D-4-2"><span class="toc-number">1.4.</span> <span class="toc-text">反思-4.2</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%A9%AC%E6%96%AF%E6%B4%9B%E5%B1%82%E6%AC%A1%E7%90%86%E8%AE%BA%E7%9A%84%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8"><span class="toc-number">1.4.1.</span> <span class="toc-text">马斯洛层次理论的实际应用</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%8A%80%E5%B7%A7"><span class="toc-number">1.5.</span> <span class="toc-text">一些游戏设计的技巧</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%BA%E8%BD%A6%E4%B8%80%E4%BD%93%E7%90%86%E8%AE%BA"><span class="toc-number">1.5.1.</span> <span class="toc-text">人车一体理论</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A7%A3%E5%AF%86%E7%9A%84%E8%AE%BE%E8%AE%A1"><span class="toc-number">1.5.2.</span> <span class="toc-text">解密的设计</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BF%A1%E6%81%AF%E4%B8%8E%E9%9A%8F%E6%9C%BA"><span class="toc-number">1.5.3.</span> <span class="toc-text">信息与随机</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%86%8A%E6%B0%8F%E5%AE%9A%E5%BE%8B%EF%BC%88%E6%88%91%E7%9F%A5%E9%81%93%E8%BF%99%E5%90%AC%E4%B8%8A%E5%8E%BB%E5%BE%88%E7%94%9F%E8%8D%89%EF%BC%89"><span class="toc-number">1.5.4.</span> <span class="toc-text">熊氏定律（我知道这听上去很生草）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%96%AF%E9%87%91%E7%BA%B3%E7%AE%B1%E5%AD%90"><span class="toc-number">1.5.5.</span> <span class="toc-text">斯金纳箱子</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BF%83%E6%B5%81%E7%90%86%E8%AE%BA"><span class="toc-number">1.5.6.</span> <span class="toc-text">心流理论</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8D%E6%80%9D-4-3"><span class="toc-number">1.6.</span> <span class="toc-text">反思-4.3</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F%E4%B8%8E%E6%84%9F%E7%9F%A5"><span class="toc-number">1.6.1.</span> <span class="toc-text">注意与感知</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BA%A6%E5%AE%9A%E4%BF%97%E6%88%90"><span class="toc-number">1.6.2.</span> <span class="toc-text">约定俗成</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B8%AD%E5%85%8B%E5%AE%9A%E5%BE%8B"><span class="toc-number">1.6.3.</span> <span class="toc-text">席克定律</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%B4%E6%96%AF%E7%89%B9%E5%8E%9F%E5%88%99"><span class="toc-number">1.6.4.</span> <span class="toc-text">巴斯特原则</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E5%BD%92%E5%9B%A0%E9%94%99%E8%AF%AF"><span class="toc-number">1.6.5.</span> <span class="toc-text">基本归因错误</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%A9%BA%E9%97%B4%E6%84%9F%E7%9F%A5"><span class="toc-number">1.6.6.</span> <span class="toc-text">空间感知</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E8%BF%9B%E7%A8%8B%E7%9A%84%E9%A9%B1%E5%8A%A8%E5%8A%9B%E2%80%94%E2%80%94%E5%8F%8D%E9%A6%88"><span class="toc-number">1.6.7.</span> <span class="toc-text">游戏进程的驱动力——反馈</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8D%E6%80%9D-4-4"><span class="toc-number">1.7.</span> <span class="toc-text">反思-4.4</span></a></li></ol></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://NandCpointFM.github.io/2025/12/09/DaoLun4/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Junwei LI"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Natika_s World of Game Designing"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">关于《游戏学导论》的研学记录与个人思考 - ( 4 )</h1><div class="post-meta"><div class="post-time"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="Created: 2025-12-09 13:00:00" itemprop="dateCreated datePublished" datetime="2025-12-09T13:00:00+08:00">2025-12-09</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <time title="Modified: 2025-12-12 16:44:31" itemprop="dateModified" datetime="2025-12-12T16:44:31+08:00">2025-12-12</time></div><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">游戏设计</span></a></span> > <span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/%E7%9F%A5%E8%AF%86%E8%BE%93%E5%85%A5/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">知识输入</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">游戏设计</span></a><a class="tag-item" href="/tags/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">理论知识</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><ul>
+<li><em>参考资料：华中科技大学-熊硕《游戏学导论》（系列课程）</em></li>
+</ul>
+<span id="more"></span>
+
+<h2 id="四、游戏策划·起手式，需求与技巧"><a href="#四、游戏策划·起手式，需求与技巧" class="headerlink" title="四、游戏策划·起手式，需求与技巧"></a>四、游戏策划·起手式，需求与技巧</h2><h3 id="游戏设计的框架（Framework）"><a href="#游戏设计的框架（Framework）" class="headerlink" title="游戏设计的框架（Framework）"></a>游戏设计的框架（Framework）</h3><h4 id="游戏学的三大流派"><a href="#游戏学的三大流派" class="headerlink" title="游戏学的三大流派"></a>游戏学的三大流派</h4><ul>
+<li><strong>Narratology（叙事学派）：</strong><ul>
+<li>起源于上世纪六十年代，认为电子游戏是一种类似于戏剧的媒介形式，应当使用叙事学的理论去分析和解剖，认为电子游戏是继小说、戏剧和电影之后新的叙事表现形式。</li>
+<li><strong>叙事学派认为叙事是游戏研究的核心问题</strong>。</li>
+</ul>
+</li>
+<li><strong>Ludology：（游戏学派）</strong><ul>
+<li>Espen Aarseth在2001年发布了《Game Studies》，标志着“电脑游戏研究的元年”的开始</li>
+<li><strong>游戏学派则认为游戏设计、人机互动和玩家间的互动才是研究关注的重点。</strong></li>
+</ul>
+</li>
+<li><strong>Information Science：（信息学派）</strong><ul>
+<li>ICGA（International Computer Game Association）前身ICCA，从计算机技术发展的角度审视游戏。</li>
+<li><strong>信息学派更多从游戏数学模型、博弈、技术等方向对游戏进行研究。</strong></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<h3 id="反思-4-1"><a href="#反思-4-1" class="headerlink" title="反思-4.1"></a>反思-4.1</h3><p>读者可能会在此感到疑惑，这三种流派之间到底有何区别？事实上，<strong>叙事学派与游戏学派主要聚焦于（<em>并且为此论战不休</em>）游戏“是什么”、“如何实现”，而信息学派则更像是从计算机科学角度思考游戏功能的最优解决方案，作为技术支持层面对游戏进行研究，而不直接与前两派竞争。</strong></p>
+<p>换句话说，<strong>叙事学派解读游戏的文化意义和情感价值，回答 “游戏讲述了什么”；游戏学派揭示游戏的玩法本质和设计原理，回答 “游戏如何让玩家参与”；信息学派提供技术实现和系统优化的理论基础，回答 “游戏如何运行和进化”。</strong></p>
+<p>显而易见，三者其中的任何一个出发点都无法完成出色的游戏设计。三个流派为数不多的共识是，游戏是复杂的多维媒介，单一视角无法完全理解，需要平衡三者并实现互补，才能为游戏设计提供全面的指导。</p>
+<p>此外，笔者在查阅资料时发现，有类如Janet Murray、Espe Aaserth等致力（<em>或曾有贡献</em>）于游戏学的前沿人物，对游戏学的研究往往来自于自己原本深耕的领域（<em>这场论战发生在几乎三十年前，彼时还没有如今的游戏学体系</em>），并从不同的（<em>尽管或许与游戏领域相距甚远，极为深入的、专业的</em>）角度给出了许多建设性的观点。这其实印证了游戏作为一种“杂学”的身份。笔者认为，“杂学”不意味着游戏学无章法可依，反而意味着游戏学是一片尚待开拓的蓝海领域，有着大量等待发掘的设计学原理与理论依据，这便是读者与笔者，也就是未来的游戏制作人们，将有待探索的了。可以预料的范围内，笔者将对游戏学各流派核心人物及其主要观点进行学习归纳，甄辨异同，以作研究，并一并置于博客上，欢迎读者届时前来批评。</p>
+</blockquote>
+<h4 id="基于Ludology的游戏学框架："><a href="#基于Ludology的游戏学框架：" class="headerlink" title="基于Ludology的游戏学框架："></a>基于Ludology的游戏学框架：</h4><ul>
+<li><strong>MDA框架：</strong><ul>
+<li>Mechanism（机制），Dynamics（动态），Aesthetics（美学）</li>
+<li>业界<strong>最常用</strong>的框架，关注玩家和设计师之间的关系。</li>
+</ul>
+</li>
+<li><strong>四元法：</strong><ul>
+<li>Elemental Tetrad（元素四联）：机制、美学、剧情、技术</li>
+<li>从游戏开发者的角度看待游戏，对不同团队的游戏基本元素进行分区。</li>
+</ul>
+</li>
+</ul>
+<h4 id="MDA框架"><a href="#MDA框架" class="headerlink" title="MDA框架"></a>MDA框架</h4><p>MDA框架在2001年GDC上首次被提出，2004年以论文形式发表。</p>
+<ul>
+<li><strong>机制：</strong> 游戏数据层面上的组件和算法。</li>
+<li><strong>动态：</strong> 响应玩家输入和其他输出的实时行为。</li>
+<li><strong>美学：</strong> 玩家与游戏系统交互时，唤起的情绪反应<ul>
+<li>描述美学时，应尽量避免“有趣”、“爽”等模糊的描述，应该使用更具针对性的词汇加以准确表达。</li>
+</ul>
+</li>
+</ul>
+<p>在MDA框架下，设计师更倾向于优先从美学角度看待游戏，通过游戏向玩家传达情感，一旦设计师确定了美学，将会反向寻找激发情感的动态，并最终利用游戏机制制造动态，是为Aesthetics（美学）—&gt; Dynamics（动态）—&gt; Mechanism（机制）。</p>
+<p>但是从玩家角度，其视角与设计师看待游戏的视角截然相反。玩家首先体验机制（游戏规则），然后在规则内玩游戏体验动态，最后获得设计师预想的美学，是为Mechanism（机制）—&gt; Dynamics（动态）—&gt; Aesthetics（美学）。</p>
+<h3 id="需求与用户"><a href="#需求与用户" class="headerlink" title="需求与用户"></a>需求与用户</h3><p><strong>在DMA框架下，为了设计游戏将会带给受众（玩家）的感受（美学），需要从我们的受众（玩家）的角度对其进行评估。</strong></p>
+<h4 id="心理的愉悦与现实"><a href="#心理的愉悦与现实" class="headerlink" title="心理的愉悦与现实"></a>心理的愉悦与现实</h4><p>玩家作为一个具有七情六欲的个体，无意识深处多多少少存在一定强度的感情欲望，这种感情与我作为一种动态结构，总是要求得到满足和释放。</p>
+<ul>
+<li><strong>心理学的愉悦原则：</strong><ul>
+<li>人的欲望一旦得到满足，紧张情绪得以释放，身心就会进入和谐状态，从而感官进入全面愉悦阶段。</li>
+</ul>
+</li>
+<li><strong>心理学的现实原则：</strong><ul>
+<li>现实生活的社会形态，多少会对人的欲望加以限制，这种限制服从了历史的要求，也迎合了社会发展的必然。</li>
+</ul>
+</li>
+<li><strong>游戏和游戏策划就是要中和愉悦原则和现实原则的矛盾。</strong></li>
+</ul>
+<h4 id="马斯洛层次理论"><a href="#马斯洛层次理论" class="headerlink" title="马斯洛层次理论"></a>马斯洛层次理论</h4><center>
+
+<p>&#x2F;-<strong>自我实现</strong>-\<br>&#x2F;—<strong>尊重需要</strong>—\<br>&#x2F;—–<strong>情感需要</strong>—–\<br>&#x2F;——-<strong>安全需要</strong>——-\<br>&#x2F;———<strong>生理需要</strong>———\</p>
+</center>
+
+<h4 id="游戏需求"><a href="#游戏需求" class="headerlink" title="游戏需求"></a>游戏需求</h4><p>游戏是人的一种本性表现：</p>
+<ul>
+<li>游戏是过剩生命力的释放</li>
+<li>游戏是幼龄动物为准备对付生活而进行的训练</li>
+<li>游戏史身心放松和宣泄的“需求”</li>
+<li>游戏旨在维持个人价值的某种情感</li>
+</ul>
+<p>玩家沉浸在游戏中成为游戏的一部分后，玩家意识可以转移到角色意识上。虚拟的需求与现实的需求，不自觉地结合为一体，即Reality is Broken。<strong>马斯洛需求层次理论主要作用在于激励玩家更多的参与到游戏中，尽可能满足某一层次的玩家，当玩家满足低层需求后，设计师要考虑在游戏中加入用户的下一层需求，并不断进行调整。</strong></p>
+<p>可以认为，当游戏实现了玩家-角色的边界破碎，那么设计者对于角色的成长层次设计就是对玩家的成长层次设计。角色的追求，从生理与安全，再到情感与尊重，最后到自我实现的过程，就是玩家逐步攀登自己在虚拟世界里需求金字塔的过程。</p>
+<h4 id="巴特尔的玩家分类理论"><a href="#巴特尔的玩家分类理论" class="headerlink" title="巴特尔的玩家分类理论"></a>巴特尔的玩家分类理论</h4><p>来自巴特尔的《Hearts，Clubs，Diamonds，Spades（HCDS）：Players Who Suit MUDs》，将玩家分为四类，对应扑克牌的四种花色，起初用于地下城玩家模型分析，但是事实上适用于多数游戏的玩家分类。</p>
+<ul>
+<li><strong>成就型（Achievers）-方片</strong><ul>
+<li>成就型玩家是喜欢在游戏中做事情，追求取胜或是达成某些目的为偏好的玩家。</li>
+<li>完成游戏中的各项任务。</li>
+<li>以胜利为目标，但是会挖掘更多的高度。</li>
+<li>PBL模型（积分、勋章、荣誉墙）对他们相对更有吸引力。</li>
+</ul>
+</li>
+<li><strong>探索型（Explorers）-黑桃</strong><ul>
+<li>探索型玩家喜欢探索游戏里的世界，喜欢把自己代入到游戏中，享受探索与沉浸。</li>
+<li>喜欢彩蛋与隐藏点，或是通过大量组合排列寻求最优解（如技能搭配）。</li>
+<li>并不追求驾驭游戏，而喜欢体验与解谜。</li>
+</ul>
+</li>
+<li><strong>社交型（Socializers）-红心</strong><ul>
+<li>社交性玩家仅将游戏视作社交的一个载体，其目的在于利用游戏拓展人际边界，享受游戏作为渠道提供的附加人际价值。</li>
+<li>与人合作，聊天，共同游戏。</li>
+<li>组建工会、帮助新人、免费攥写攻略。</li>
+<li>享受受到他人肯定，满足自我社会情感需求。</li>
+</ul>
+</li>
+<li><strong>杀手型（Killers）-梅花</strong><ul>
+<li>杀手型玩家享受杀戮与战斗，游戏的剧情、成就、工会、世界等等对他们都不重要。对于杀手型玩家而言，增强角色战斗力、杀更多的敌人，才是真正值得追求的。</li>
+<li>追求压制其他玩家，掌控游戏局势。</li>
+<li>有着非常主动的游戏行为。</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<h3 id="反思-4-2"><a href="#反思-4-2" class="headerlink" title="反思-4.2"></a>反思-4.2</h3><p>巴特尔在四象限分类理论中，通过分析 MUD 玩家的行为，建立了一个二维坐标系，由于博客绘图不便，笔者这里用文字加以简述：</p>
+<p><strong>X 轴 (玩家 - 世界)：玩家偏好与他人互动还是与游戏世界互动。</strong><br><strong>Y 轴 (作用 - 交互)：玩家偏好对目标采取行动还是与目标进行交互。</strong><br><strong>其中，一二三四象限分别是成就型、杀手型、社交型、探索型。</strong></p>
+<p>事后，巴特尔还将四大型各自区分出内隐亚型和外显亚型，于是最终的玩家分类理论涵盖八大类型，由于篇幅限制，这里不做介绍，有兴趣的读者可以自行了解。</p>
+<p>值得思考的一个问题是，巴特尔模型其实不能完全适用于全体游戏的玩家分类。部分游戏，如《去月球》一类的叙事引导向游戏，其玩家受众群体显然不符合四种类型中的任何一种（当然，可以说剧情带有一点“探索性”），但是其仍然博得了广泛的好评，一度风靡了整个油管游戏区，我们认为它是一款优秀的游戏。笔者认为，其原因或许在于，对于不同的游戏，任何一个玩家所处于的分类象限位置都会有所不同，例如，对于《去月球》这类型游戏，玩家往往收缩了成就、社交、战斗的期待，转而更多地希望得到优秀的剧情探索体验。此外，笔者认为，虽然每一个玩家都持有某一种特定分类的倾向（比如有的玩家在任何游戏中都表现出杀手型地倾向），但是在游戏的买入与早期体验中，许多玩家被游戏所“筛选掉”了。很简单的思路是，一个玩家如果只想打打杀杀，那么他大概率不会购入一款纯粹的剧情引导向游戏，或者说购入后也很难完全支撑自己完成一个自己完全不感冒的游戏流程。这样，游戏的核心受众就已经确定，游戏只要讨好这样的核心受众就可以实现一定范围内的高口碑与高收入。</p>
+<p>玩家类型受限也不是完全没有负面作用的。例如，国内对《去月球》的“神作”评价其实存在某些质疑声，但其核心原因是《去月球》口碑暴涨突破了核心受众的圈子，大量对这类型游戏不太感冒的玩家抱着高期待进行游玩，自然无法得到其核心受众的优质体验感。</p>
+<p>当然，笔者这里多加一句。笔者完全支持每一个玩家去对一款不符合自己期待的游戏做出低评价，但是笔者不认为这是部分人“审美比别人高级”的体现，也坚决反对以此进行审美霸凌。每个人对任何事物的评价体系都来自于个人的经历，适配于自己的成长历程与对世界的认知，好与坏自己评判，冷暖自知便可。一个产品对于部分人是符合其评判体系的，对另一部分人则不然，自然本应如此，这就是第二课里提到过的“游戏无法取悦全部人”，事实上，不只是游戏，任何作品或产品都是如此。人们有权为不符合自己期待的事物做出差评，但是没有权利去比较审美与认知的高低——每个人活都在自己认知的牢笼中，又怎么去站在旁观者角度高高在上地评价认知的贵贱是非呢？适合自己的就是好的，此便足矣，不适合自己的也不应该强求他人做出同样的评价，更不应该去对那些拒绝改变评价的人扣上一个“认知低”的帽子来平衡自己的认知体系。一个玩家可以说“我的评价体系被我的世界观与经历所改变，于是我做出了和其他人不一样的论断——这款游戏是优秀的&#x2F;糟糕的”，但是不能由此说“就审美这块，你们还得练”，因为正如前文所说，认知的差异是不能也不应分出高低的。国内互联网平台的游戏话题评论区（甚至拓展到任何争议性话题的评论区）的无趣争辩，许多都是这一意识缺失的结果。</p>
+</blockquote>
+<p>总而言之，人类有许多本能的心理愉悦倾向，这些倾向在现实环境中，因为认知、成本、环境条件、道德、伦理以及法制，会或多或少的被压制和隐藏，但虚拟的电子游戏世界里，人的天性乐趣，却是游戏策划时刻需要考虑的问题，也是游戏引人入胜的关键。人类身上的特质与需求都有其原因。与其说是需求，不如说是本能。</p>
+<h4 id="马斯洛层次理论的实际应用"><a href="#马斯洛层次理论的实际应用" class="headerlink" title="马斯洛层次理论的实际应用"></a>马斯洛层次理论的实际应用</h4><ol>
+<li><p><strong>求生欲（生理需求）</strong></p>
+<ul>
+<li>生存是人类和所有生物最基本的需求，求生是人最基础的本能。</li>
+<li>游戏中，在大部分时间里让玩家时刻保持在生存受威胁的环境中，可以实现置之死地而后生的效果。</li>
+<li>对于任意四种而类型的玩家都很有效果</li>
+</ul>
+</li>
+<li><p><strong>创造与生存延续（生理需求）</strong></p>
+<ul>
+<li>暂时活下来对人类来说还远远不够。</li>
+<li>人类为了繁衍和生存会有本能的以下举动：<ul>
+<li>性</li>
+<li>遮风挡雨，躲避敌害，建造避难所</li>
+<li>农耕、游牧、渔猎</li>
+</ul>
+</li>
+<li>对于成就型与探索型玩家极其有效果。</li>
+</ul>
+</li>
+<li><p><strong>破坏与毁灭（生理需求）</strong></p>
+<ul>
+<li>有了创造，就有创造的对立面。</li>
+<li>弗洛伊德认为人类内心有一种破坏力量，它是人类的天赋。<ul>
+<li>这种力量得不到宣泄，人的心理甚至社会会出现问题。</li>
+<li>现实宣泄成本极高，而电子游戏提供了低成本而安全的渠道。</li>
+<li>本质——以无代价的破坏刺激人的感官，放松心情，减少对社会的反作用</li>
+</ul>
+</li>
+<li>对杀手型玩家格外有效。</li>
+</ul>
+</li>
+<li><p><strong>收集匹配癖（安全需求）</strong></p>
+<ul>
+<li>自然选择：远古人类把采集到的各种食物分门别类加以整理，并按照保存时间存放。</li>
+<li>人类会自觉或不自觉对物品进行区分归类匹配（收集癖&#x2F;强迫症）。</li>
+<li>对成就型和探索型玩家有很好的效果。</li>
+</ul>
+</li>
+<li><p><strong>追逐竞速与躲避（安全需求）</strong></p>
+<ul>
+<li>古人需要奔跑追逐来抓捕猎物，或者躲避对自己有伤害的野兽与自然环境。</li>
+<li>捉迷藏，老鹰抓小鸡。</li>
+<li>配合求生本能，让玩家感受到强烈的追逐感、速度感与逃避感。</li>
+<li>3A大作的惯用场景，对杀手型、社交型玩家效果显著。</li>
+</ul>
+</li>
+<li><p><strong>地盘保护争夺（安全需求 + 情感需求）</strong></p>
+<ul>
+<li>地盘是人类最基本的栖息地和可持续发展保障。</li>
+<li>保护自己地盘不被侵犯的本能，资源匮乏时侵略其他种群地盘的本能。</li>
+<li>从食物、水、物品、装备；上升到国家、民族、政治、名誉。</li>
+<li>这种强烈攻防色彩的元素在游戏中屡见不鲜。</li>
+<li>对杀手型、成就型与社交型玩家效果显著。</li>
+</ul>
+</li>
+<li><p><strong>交易合作与虚荣（情感需求 + 尊重需求）</strong></p>
+<ul>
+<li>人类区别与野生动物在于，我们并不非要用武力对资源进行争夺，大多数情况下我们更乐意用文明的“交易”完成资源积累，达成双赢。</li>
+<li>交易能加强玩家之间的沟通。</li>
+<li>对探索型、成就型和社交型玩家效果显著</li>
+</ul>
+</li>
+<li><p><strong>故事与情感代入（情感需求 + 尊重需求）</strong></p>
+<ul>
+<li>故事时人类文明与记忆得以传承的重要工具之一。</li>
+<li>随着传播技术，从口口相传到电子游戏，玩家希望体验跌宕起伏的故事</li>
+<li>不论一个游戏是否具有故事情节，他们  在投入游戏后一般都会代入情感，甚至把自己想象成游戏中的角色，共欢喜共悲伤。</li>
+<li>对社交型玩家和探索型玩家格外有效。</li>
+</ul>
+</li>
+<li><p><strong>探索未知（自我需求）</strong></p>
+<ul>
+<li>人对于未知的未来总有一种莫名的恐惧感，所以渴望尽早预测和解密。</li>
+<li>运用未知与预测，能够激发玩家对游戏的探索欲望，让游戏充满悬念和紧张感。</li>
+<li>基础未知恐惧不够的时候就上升到直接对恐惧的渴望。</li>
+<li>探索型玩家的最爱。</li>
+</ul>
+</li>
+<li><p><strong>刺激与挑战（自我需求）</strong></p>
+</li>
+</ol>
+<ul>
+<li>很多游戏中都包括能力挑战的元素，人在潜意识里有一种不服输的心理</li>
+<li>设计一些挑战人能力的玩法，更能激发玩家的斗志，甚至让玩家废寝忘食。</li>
+<li>成就型玩家的最爱。</br></li>
+</ul>
+<p><strong>当我们讨论美学（感受）设计时，以上十种“游戏引导人类”的本能可以配合上马斯洛需求层次理论、巴特尔玩家分类理论，对我们想要传递的美学做出描述与设计。</strong></p>
+<p>这10种方式和天性是游戏最常用的核心体验类型，也就是游戏策划希望用户能体验到的感受。设计前想好的你的游戏关于什么（核心体验与游戏主题），如何将10种人类天性有机的结合起来，使之“有毒”。</p>
+<h3 id="一些游戏设计的技巧"><a href="#一些游戏设计的技巧" class="headerlink" title="一些游戏设计的技巧"></a>一些游戏设计的技巧</h3><h4 id="人车一体理论"><a href="#人车一体理论" class="headerlink" title="人车一体理论"></a>人车一体理论</h4><ul>
+<li>对游戏的控制就像是对汽车的控制，让人觉得是“我”在游戏，而不是作为旁观者。</li>
+<li>一个简单的操作、一个应景音效都可以让玩家觉得自己带入了游戏中。</li>
+<li>媒介是人的衍生，机械控制设备就是四肢的衍生。</li>
+</ul>
+<h4 id="解密的设计"><a href="#解密的设计" class="headerlink" title="解密的设计"></a>解密的设计</h4><ul>
+<li>完美的谜题在难度上“恰到好处”，难度上符合心流理论</li>
+<li>面包屑式引导<ul>
+<li>用一些细微的线索，一点点引导用户接近答案的核心。</li>
+<li>参考高中化学的大型化工推理，高中数学的最终关，数独等等，都是优秀案例（<em>如果称之为一种游戏</em>）。</li>
+</ul>
+</li>
+<li>好的谜题应该用智慧，而非蛮力破解。<ul>
+<li>避免玩家用穷举法破解，或者提升暴力破解的代价。</li>
+<li>避免谜题的提问方式导致玩家要么“立刻就知道”，要么“完全不知道”。</li>
+</ul>
+</li>
+<li>谜题可以是随机生成的，但玩家解答开始前需要被确认。</li>
+<li>目标与机制上是公平的，避免利用信息上的不对等玩弄玩家。</li>
+</ul>
+<h4 id="信息与随机"><a href="#信息与随机" class="headerlink" title="信息与随机"></a>信息与随机</h4><ul>
+<li>根据所有玩家是否同时知道所有当前局面，可将游戏的信息体系区分为：<ul>
+<li>完全信息（Complete Information）</li>
+<li>不完全信息（Incomplete Information）</li>
+</ul>
+</li>
+<li>进程驱动核心中，根据玩家是否依赖非能力非策略的运气与随机因素，游戏机制可以被认为有：<ul>
+<li>随机性（Stochastic）</li>
+<li>非随机性（Instochastic）</li>
+</ul>
+</li>
+<li>不完全信息和随机性，可以有效降低策略碾压，提升共同娱乐性（美式桌游的一大特点：随机性与扮演，大大降低了类似德式桌游的博弈性，降低了玩家入门门槛，但也一定程度上削弱了策略玩法的趣味）。</li>
+<li>策略碾压（加上过于简单的游戏机制）可能会造成Solved Game（已解决游戏）的问题。</li>
+</ul>
+<h4 id="熊氏定律（我知道这听上去很生草）"><a href="#熊氏定律（我知道这听上去很生草）" class="headerlink" title="熊氏定律（我知道这听上去很生草）"></a>熊氏定律（我知道这听上去很生草）</h4><ul>
+<li>由本课的授课者熊硕老师提出。</li>
+<li>在不完全信息或者随机性的对抗中，明显弱势的一方在战术层面上必须尽可能减少游戏进程以寻求可能的胜利，否则随着游戏进程的增大，胜率逐渐减小，直至趋近于0。</li>
+</ul>
+<h4 id="斯金纳箱子"><a href="#斯金纳箱子" class="headerlink" title="斯金纳箱子"></a>斯金纳箱子</h4><ul>
+<li><p>斯纳金箱子 (Skinner Box) 是由美国心理学家伯尔赫斯・弗雷德里克・斯金纳 (B.F. Skinner) 于 1938 年设计的实验装置，正式名称为 “操作性条件反射箱”(Operant Conditioning Chamber)，用于研究动物的学习行为和操作性条件反射原理。</p>
+</li>
+<li><p>每当老鼠按下杠杆，斯金纳就奖励一颗食物；</p>
+</li>
+<li><p>老鼠每隔X次按下杠杆，斯金纳就奖励一颗食物；</p>
+</li>
+<li><p>老鼠每隔N分钟按下杠杆，斯金纳就奖励一颗食物；</p>
+</li>
+<li><p>老鼠每隔X次（X &#x3D; random）按下杠杆，斯金纳就奖励一颗食物；</p>
+</li>
+<li><p>老鼠每隔N分钟（N &#x3D; random）按下杠杆，斯金纳就奖励一颗食物；</p>
+</li>
+<li><p>以上所有的实验，结束后都会让老鼠自觉地按下杠杆寻求食物。</p>
+</li>
+<li><p>当然，如果想让老鼠多按杠杆，一方面加强老鼠“多按多得”的印象，又让他们摸不清楚按多少次才能得到食物（引入随机要素）。</p>
+</li>
+<li><p>典型案例：刷怪打装备&#x2F;抽卡出SSR，都算是“斯纳金箱子”原理的应用。</p>
+</li>
+</ul>
+<h4 id="心流理论"><a href="#心流理论" class="headerlink" title="心流理论"></a>心流理论</h4><ul>
+<li>心流描述的是一种内在动机达到巅峰的状态，之前在严肃游戏的设计中涉及到（严肃游戏设计的第一要求——控制难度曲线，维持玩家心流）。</li>
+<li>在这种状态中，人的意识超越了身体上的感知，进入了一种奇妙的舒适区域。</li>
+<li>这种状态往往发生在一个人自身的技能与他正在从事的任务与挑战一致的前提下。</li>
+</ul>
+<blockquote>
+<h3 id="反思-4-3"><a href="#反思-4-3" class="headerlink" title="反思-4.3"></a>反思-4.3</h3><p>关于心流理论与难度曲线，读者可能会产生混淆与疑惑。事实上，心流理论的应用与难度曲线的构建本质就是一体的，难度曲线就是维持玩家保持在心流状态中的 Challenges-Skills 曲线。由于笔者没有引入图片，这里理解起来或许有些繁复，读者不妨自己搜索心流曲线&#x2F;心流坐标系，图中蜿蜒向上的就是我们所说的难度曲线。</p>
+</blockquote>
+<h4 id="注意与感知"><a href="#注意与感知" class="headerlink" title="注意与感知"></a>注意与感知</h4><ul>
+<li>感知是我们神经中枢对外界刺激的应激行为，其在大部分情况下是被动的。</li>
+<li>注意不同于感知，人类可以有主动选择性。</li>
+<li>设计的时候抓住玩家对应的注意力。</li>
+<li>无意视盲<ul>
+<li>当界面上同时出现过多信息的时候，玩家会无意忽视掉其中一些内容。</li>
+<li>不要一次性提供太多的信息在屏幕上。</li>
+</ul>
+</li>
+<li>为了激发特定的感官与情绪，不要一次性提供太多感官输入</li>
+</ul>
+<h4 id="约定俗成"><a href="#约定俗成" class="headerlink" title="约定俗成"></a>约定俗成</h4><ul>
+<li>一般对于动作类游戏，或者操作性强的游戏，使用一套约定俗成的案件于操作方式会更容易让你的作品被他人所接受。</li>
+<li>《守望先锋》中的士兵76，就是将一款FPS游戏的通用操作方式制作成了一个基础性角色（就连大招也是在短时间内获得一般FPS的自动瞄准外挂）。</li>
+<li>例如，如果LOL在操作上不继承DOTA，那么DOTA玩家转向LOL的学习成本就会直线上升，很大程度上限制了潜在用户向核心用户的转化。</li>
+<li><strong>不要轻易更改约定俗成的用户习惯。</strong></li>
+</ul>
+<h4 id="席克定律"><a href="#席克定律" class="headerlink" title="席克定律"></a>席克定律</h4><ul>
+<li>当用户面对一列相似的选项时，每往列表上加一个选项，其做出决定的时间就将成对数形式增长。<ul>
+<li>RT &#x3D; a + b log2(n)</li>
+</ul>
+</li>
+<li>一般认为，应当给出的合理的选项数量是3个到6个，除非做选择的人内心已经有了一个相对明确的答案。</li>
+<li>设计者应当尽可能让玩家做出选择困难症的状态，以达到交互思考与多周目的目的。</li>
+</ul>
+<h4 id="巴斯特原则"><a href="#巴斯特原则" class="headerlink" title="巴斯特原则"></a>巴斯特原则</h4><ul>
+<li>巴斯特原则 (Buster Principle) 是游戏设计领域的重要原则，被收录为《游戏设计的 100 个原理》中的第 82 条，其核心可凝练为一句话：”对你的玩家好一点”。</li>
+<li>这一原则得名于一只名为 巴斯特・基顿 (Buster Keaton) 的粉红凤头鹦鹉。这只聪明的鸟儿在与主人玩敏捷游戏时，会敏锐察觉主人的挫败感，当感知到主人即将放弃时，它会巧妙降低游戏难度（如调整物品位置），使主人能获得成功。这种调整非常微妙，主人玩了很久才意识到鸟儿在偷偷放水。</li>
+<li>电子游戏里，当玩家明显尝试了很多次去试图完成一个任务的时候，试着把这个任务暗中稍微变得简单一点点以适应玩家的能力或受挫程度，让玩家最终能获得成就感并保持对游戏的兴趣。</li>
+<li>让游戏来自动调整某一特定区域的难度，利用动态的难度机制调控难度曲线、维护玩家的心流。（当然是在玩家不知情的前提下暗箱操作）。</li>
+</ul>
+<h4 id="基本归因错误"><a href="#基本归因错误" class="headerlink" title="基本归因错误"></a>基本归因错误</h4><ul>
+<li>不妨回忆第二节课提到的关于游戏的假新闻问题。</li>
+<li>人们几乎普遍习惯于为自己的行为找原因，而对于他人的行为则归咎于他人主观因素上，而忽视了他们所处的情境。</li>
+<li>游戏设计和测试过程中面临的问题，试着去分析存在的问题到底是因何而生，避免陷入基本归因错误。</li>
+</ul>
+<h4 id="空间感知"><a href="#空间感知" class="headerlink" title="空间感知"></a>空间感知</h4><ul>
+<li>所谓空间感知，指一个人对自己在空间中所处的位置以及与周围的事物和环境之间关系的认识。<ul>
+<li>大教堂效应<ul>
+<li>建筑天花板的高度和人们的思考行为之间存在显著关系，天花板越高，越促进思考，激发创造力。</li>
+</ul>
+</li>
+<li>幽闭效应<ul>
+<li>玩家意识到被困在一个小空间，或者直面敌方视线时，会明显产生危险靠近的恐惧。</li>
+</ul>
+</li>
+<li>庇护所<ul>
+<li>人类喜欢能提供隐蔽的场所。</li>
+<li>旷野恐惧（Agoraphobia）：一种焦虑障碍，核心特征是 对 “难以逃离” 或 “无法及时获得帮助” 的场所 &#x2F; 情境产生强烈、持续的恐惧</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="游戏进程的驱动力——反馈"><a href="#游戏进程的驱动力——反馈" class="headerlink" title="游戏进程的驱动力——反馈"></a>游戏进程的驱动力——反馈</h4><ul>
+<li>合理的反馈机制是存留用户的核心因素之一。</li>
+<li>正反馈：使原来传递的信息在下一次传播中得到加强的反馈是正反馈。<ul>
+<li>类比：马太效应：<ul>
+<li>马太效应（Matthew Effect） 是指在资源分配、机会获取、成就积累等领域，初始优势会引发连锁反应，导致 “富者愈富、贫者愈贫” 的累积优势现象—— 强者因已有优势持续获得更多资源，弱者因缺乏初始条件难以突破困境，两者差距随时间不断扩大。</li>
+</ul>
+</li>
+<li>实例：三消游戏的爽快感、DOTA2里军团指挥官的大招“决斗”、APP的用户留存，都是正反馈的实例。</li>
+</ul>
+</li>
+<li>负反馈：使原本传递的信息在下一次传播中减弱的反馈是负反馈。<ul>
+<li>类比：王朝周期律。</li>
+<li>实例：游戏设计中，负反馈的主要作用是调节游戏平衡性，或者中和正反馈对游戏本身过程可能存在的破坏性，譬如操作失误导致失去游戏节奏、丧失优势等游戏中常见的情景，都是负反馈的一部分，这里不一一列举。</li>
+</ul>
+</li>
+<li>这里的正反馈和负反馈不是新闻传播学中的概念。</li>
+<li>缺少正反馈的游戏，比如《黑暗之魂》系列，很容易让新手望而却步，导致玩家流失。相反的，《暗黑破坏神3》因为缺少负反馈，导致游戏数值爆炸，显得后期极其乏味无聊。</li>
+</ul>
+<p>因为篇幅与时间的因素，这些技巧只是具有代表性的一部分，对于一个出色的游戏设计师仍然远远不够，心理学的魅力也不仅限于此，把技巧和需求融会贯通，才是游戏设计的真谛。</p>
+<blockquote>
+<h3 id="反思-4-4"><a href="#反思-4-4" class="headerlink" title="反思-4.4"></a>反思-4.4</h3><p>熊硕老师的课程本身是面向其学院内传播学、新闻学等方向的学生开设的选修课程，换句话说，其受众是对游戏设计少有经验的素人学生。但是笔者认为，对于读者或任何想要进入游戏设计行业的新人，先参加一些小型的比赛（<em>比如各个组织举办的Gamejam</em>）积累经验和能力，再进行课程学习与专业研究，会是更好的选择。一方面，这将有利于读者认清自己是否真的乐在其中，是否对其抱有浓厚的兴趣，从而更好地做出决策，避免浪费时间与精力成本；另一方面，预先积累的经验也有利于读者更好的理解所想学习的课程中的各类（<em>不论是设计原理还是团队管理</em>）内容并加以消化。</p>
+</blockquote>
+</br>
+
+<p><strong><center>END </center></strong></p>
+</div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="Donate" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><span class="icon iconify" data-icon="ri:hand-coin-line"></span></span><div id="reward-comment">I'm so cute. Please give me money.</div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>Post author: </strong>Junwei LI</li><li class="post-copyright-link"><strong>Post link: </strong><a href="https://nandcpointfm.github.io/2025/12/09/DaoLun4/" title="关于《游戏学导论》的研学记录与个人思考 - ( 4 )">https://nandcpointfm.github.io/2025/12/09/DaoLun4/</a></li><li class="post-copyright-license"><strong>Copyright Notice: </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> unless otherwise stated.</li></ul></article><div class="post-nav"><div class="post-nav-item"></div><div class="post-nav-item"><a class="post-nav-next" href="/2025/12/02/DaoLun3/" rel="next" title="关于《游戏学导论》的研学记录与个人思考 - ( 3 )"><span class="post-nav-text">关于《游戏学导论》的研学记录与个人思考 - ( 3 )</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2019 – 2025 </span><span class="with-love" id="animate"><i></i></span><span class="author"> Junwei LI</span></div><div class="powered"><span>Powered by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v8.1.1</span><span class="footer-separator">|</span><span>Theme - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.11</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a></body></html>
