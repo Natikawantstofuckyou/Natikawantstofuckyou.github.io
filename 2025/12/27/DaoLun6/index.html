@@ -1,0 +1,304 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="Junwei LI"><meta name="copyright" content="Junwei LI"><meta name="generator" content="Hexo 8.1.1"><meta name="theme" content="hexo-theme-yun"><title>关于《游戏学导论》的研学记录与个人思考 - ( 6 ) | Natika_s World of Game Designing</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"nandcpointfm.github.io","root":"/","title":"游戏不止","version":"1.10.11","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","fireworks":{"colors":null},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><meta name="description" content="参考资料：华中科技大学-熊硕《游戏学导论》（系列课程）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于《游戏学导论》的研学记录与个人思考 - ( 6 )">
+<meta property="og:url" content="https://nandcpointfm.github.io/2025/12/27/DaoLun6/index.html">
+<meta property="og:site_name" content="Natika_s World of Game Designing">
+<meta property="og:description" content="参考资料：华中科技大学-熊硕《游戏学导论》（系列课程）">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-12-27T05:00:00.000Z">
+<meta property="article:modified_time" content="2025-12-28T04:56:15.465Z">
+<meta property="article:author" content="Junwei LI">
+<meta property="article:tag" content="游戏设计">
+<meta property="article:tag" content="理论知识">
+<meta name="twitter:card" content="summary"><script>(function() {
+  if (CONFIG.mode !== 'auto') return
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="Table of Contents"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="Overview"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="Junwei LI"><img width="96" loading="lazy" src="/images/head1.jpg" alt="Junwei LI"></a><div class="site-author-name"><a href="/about/">Junwei LI</a></div><span class="site-name">Natika_s World of Game Designing</span><sub class="site-subtitle">I wanna be the BEST GAME DESIGNER.</sub><div class="site-description">a personal blog for sharing my thoughts about the GREATEST GAMES</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="Home"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="Archives"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">7</span></a></div><div class="site-state-item"><a href="/categories/" title="Categories"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">2</span></a></div><div class="site-state-item"><a href="/tags/" title="Tags"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">2</span></a></div><a class="site-state-item hty-icon-button" target="_blank" rel="noopener" href="https://yun.yunyoujun.cn" title="文档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:settings-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" target="_blank" style="color:undefined"><i></i></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E6%B8%B8%E6%88%8F%E7%AD%96%E5%88%92%C2%B7%E6%96%87%E6%A1%88%E5%8F%99%E4%BA%8B%EF%BC%8C%E5%89%A7%E6%9C%AC%E4%B8%8E%E8%A7%92%E8%89%B2"><span class="toc-number">1.</span> <span class="toc-text">六、游戏策划·文案叙事，剧本与角色</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%96%87%E6%A1%88%E7%AD%96%E5%88%92%E7%9A%84%E6%B5%81%E7%A8%8B"><span class="toc-number">1.1.</span> <span class="toc-text">文案策划的流程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%89%A7%E6%9C%AC%E4%B8%8E%E4%B8%BB%E9%A2%98"><span class="toc-number">1.2.</span> <span class="toc-text">剧本与主题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BB%E9%A2%98"><span class="toc-number">1.2.1.</span> <span class="toc-text">主题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%85%E4%BA%8B"><span class="toc-number">1.2.2.</span> <span class="toc-text">故事</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8D%E6%80%9D-6-1"><span class="toc-number">1.3.</span> <span class="toc-text">反思-6.1</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%92%E8%89%B2"><span class="toc-number">1.4.</span> <span class="toc-text">角色</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A7%92%E8%89%B2%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="toc-number">1.4.1.</span> <span class="toc-text">角色的定义</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A7%92%E8%89%B2%E8%AE%BE%E5%AE%9A%E8%A1%A8"><span class="toc-number">1.4.2.</span> <span class="toc-text">角色设定表</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BE%BF%E7%AD%BE-6-1"><span class="toc-number">1.5.</span> <span class="toc-text">便签-6.1</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%92%E8%89%B2%E5%AE%9A%E4%BD%8D"><span class="toc-number">1.6.</span> <span class="toc-text">角色定位</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%94%E7%A7%8D%E8%A7%92%E8%89%B2%E5%AE%9A%E4%BD%8D"><span class="toc-number">1.6.1.</span> <span class="toc-text">五种角色定位</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BB%E4%BA%BA%E5%85%AC"><span class="toc-number">1.6.2.</span> <span class="toc-text">主人公</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BE%85%E6%94%BB%E5%85%8B%E8%A7%92%E8%89%B2"><span class="toc-number">1.6.3.</span> <span class="toc-text">待攻克角色</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E8%A7%92%E8%89%B2"><span class="toc-number">1.6.4.</span> <span class="toc-text">系统角色</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%8C%E4%BA%BA%E8%A7%92%E8%89%B2"><span class="toc-number">1.6.5.</span> <span class="toc-text">敌人角色</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%83%85%E4%BE%A3%E8%A7%92%E8%89%B2"><span class="toc-number">1.6.6.</span> <span class="toc-text">情侣角色</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BC%99%E4%BC%B4%E8%A7%92%E8%89%B2"><span class="toc-number">1.6.7.</span> <span class="toc-text">伙伴角色</span></a></li></ol></li></ol></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://NandCpointFM.github.io/2025/12/27/DaoLun6/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Junwei LI"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Natika_s World of Game Designing"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">关于《游戏学导论》的研学记录与个人思考 - ( 6 )</h1><div class="post-meta"><div class="post-time"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="Created: 2025-12-27 13:00:00" itemprop="dateCreated datePublished" datetime="2025-12-27T13:00:00+08:00">2025-12-27</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <time title="Modified: 2025-12-28 12:56:15" itemprop="dateModified" datetime="2025-12-28T12:56:15+08:00">2025-12-28</time></div><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">游戏设计</span></a></span> > <span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/%E7%9F%A5%E8%AF%86%E8%BE%93%E5%85%A5/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">知识输入</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">游戏设计</span></a><a class="tag-item" href="/tags/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">理论知识</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><ul>
+<li><em>参考资料：华中科技大学-熊硕《游戏学导论》（系列课程）</em></li>
+</ul>
+<span id="more"></span>
+
+<h2 id="六、游戏策划·文案叙事，剧本与角色"><a href="#六、游戏策划·文案叙事，剧本与角色" class="headerlink" title="六、游戏策划·文案叙事，剧本与角色"></a>六、游戏策划·文案叙事，剧本与角色</h2><p><strong>一个好的故事可以直接把玩家黏住——尽管有的用户本身对游戏兴趣不大，但是他们离不开各种故事，事实上，没有人会拒绝故事。</strong></p>
+<h4 id="文案策划的流程"><a href="#文案策划的流程" class="headerlink" title="文案策划的流程"></a>文案策划的流程</h4><p>游戏的文案策划流程可以细分为<strong>策划阶段</strong>和<strong>剧本创作阶段</strong>，本次课程主要聚焦策划阶段。对于策划阶段，需要依次确定游戏的<strong>主题、目的、角色、世界、故事。</strong></p>
+<h3 id="剧本与主题"><a href="#剧本与主题" class="headerlink" title="剧本与主题"></a>剧本与主题</h3><h4 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h4><ul>
+<li>主题能够使游戏给人一定的印象，并赋予游戏一定的方向。</li>
+<li><strong>用一个词来表达的主题</strong><ul>
+<li>以抽象的描述为主——比如友情、纯爱、复仇、推理等等</li>
+</ul>
+</li>
+<li><strong>用一个长句表达的主题</strong><ul>
+<li><strong>往往使用疑问句描述：</strong></li>
+<li>例如：平庸男子变成蜘蛛侠的话会怎么样？</li>
+<li>又如：主人公是菜鸟辩护律师的话会怎么样？</li>
+</ul>
+</li>
+</ul>
+<h4 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h4><ul>
+<li>主题只是画了一个饼，单单高呼“友情、正义、爱”的口号是无法实现叙事目标的。   </li>
+<li>接下来需要把抽象的主题具体地讲给人们听，也就是“讲故事”。</li>
+<li><strong>故事的定义：</strong><ul>
+<li><strong>用来向玩家表达主题的具体内容</strong>  </br></li>
+</ul>
+</li>
+<li>如何将主题抽象为故事？<ul>
+<li>在创作故事前，有必要先确定<strong>主题中是否包含游戏目的</strong>以及<strong>主题是否足以创造故事</strong>。如果主题不包含游戏目的，试着将游戏目的与主题联系起来；如果主题不足以创造完整的故事，试着扩充主题使之内容丰富。最后以主题（角色、世界）为基础创作故事。</li>
+<li>从主题导出故事的过程，不妨以Capcom的《生化危机》系列作品为例。假设主题是 <strong>“能逃出丧尸横行的洋馆吗？”</strong><ul>
+<li>“丧尸”这一元素可以引导出“为什么有僵尸”，进而引导出背景设定——生物灾害&#x2F;保护伞公司&#x2F;T病毒，从而确定了游戏的背景设定。</li>
+<li>“逃出“这一元素可以引导出”主角为什么在洋馆，又为什么要逃出？“，进而引导出主角进入洋馆的动机——“主角为什么要探查丧尸出现的原因呢？”，因此得以拓展剧情内容，丰富角色设定。</li>
+</ul>
+</li>
+<li>试着从主题出发，发挥出一连串想象，引出故事。     </br></li>
+</ul>
+</li>
+<li>创作故事的材料：<ul>
+<li>如果从零开始，不知如何下手，可以查资料取材。</li>
+<li>话题库，创意库：<ul>
+<li>取决于平时的积累，随身带一个话题笔记；</li>
+<li>市场留心周围，一旦有能用的话题，或者有有趣的事就立刻记下来，慢慢积累话题库。</li>
+</ul>
+</li>
+<li>借鉴原型：<ul>
+<li>图书、游戏、电影、报纸、杂志等等媒体的报告；</li>
+<li>没事就从新闻或百科里找找创意；</li>
+<li>注意致敬和抄袭的边界线</li>
+<li>叙事长诗《罗梅乌斯与朱丽叶的悲剧史》</li>
+</ul>
+</li>
+<li>角色和世界的设定<ul>
+<li>可以试着先从角色设定入手  </br></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>如何表现主题：<ul>
+<li>主题最好不表现在剧本里，尤其忌讳刻意突兀地出现在台词中，以避免干涩与尴尬。（0个人希望看见主角用捧读的口吻说出“爸爸，家人是宝贵的，我们要珍爱家人。”）主题的具体展现以委婉侧面的方式为佳。</li>
+<li>通过角色的选择与行为表现主题。</li>
+<li>通过故事的发展表现主题。</li>
+<li>当然，尽管主题不应该过于直白地被展现，我们仍然可以在合适的时候直接点题。</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<h3 id="反思-6-1"><a href="#反思-6-1" class="headerlink" title="反思-6.1"></a>反思-6.1</h3><p>笔者在游戏设计之余，也对小说创作与游戏剧编有一定兴趣。在有限经验的指导下，笔者发现二者某种层次上是相通的。</p>
+<p>笔者认为，宏观情节编排应当是任何故事剧编的第一步（<em>当然，一个好的灵感是第0步</em>）。换句话说，在开始构思完整的、全面的、可指导游戏情节具体落实的剧编方案前，读者应当有一个剧编纲要——能否用一分钟介绍故事的梗概？这一分钟的介绍能否既不过于详细，但又能理清剧情的主要起承转合？笔者认为这是评判纲要是否合格的标准，也是利用纲要调整剧情架构、扩充剧情要素的前提条件。</p>
+<p>在有了纲要后，先不要急着开始落实到文案，也不宜立刻将剧编与具体的游戏设计结合，而应先尽量打磨剧情纲要使其尽可能成熟，避免开发进程中对剧情进行大范围重构（<em>一般来说，剧情占游戏比重较多的游戏，其剧编应尽量早于Gameplay完成设计、开始开发，否则后期需要反复地同时协调游戏流程的可玩性与剧情设计 &#x2F; 推进，这会是读者绝对不想经历的地狱体验，这里全是笔者的血泪。当然，对于剧情不占主导或显著地位的游戏，前期只做一个大纲，后期边做边搪塞也是可以的。</em>）</p>
+<p>试着为你的故事理出 <strong>“一根线”</strong> 和 <strong>“一张网”</strong> ， “一根线” 代表串联剧编中主要事件的时间线， “一张网” 代表连接主要人物的关系网。对于这一根线与一张网，首要工作是<strong>加粗</strong>，也就是填充故事线与关系网，让它们看起来更有血有肉，按照小说的标准对其编排使其有起承转合，但又要适应游戏的流程节奏，使之与游戏本体得以结合统一。</p>
+<p>同时，如果你的游戏剧情导向程度较深，或者你对剧情有更高的要求，希望它有所隐藏，或是希望它更有深度，不妨试试让你的故事线看起来凌乱回环，让你的关系网变得更加密集复杂。具体来说，试着用好几条并行的故事线交错编织，甚至偶尔闪回、快进、改变叙事顺序，再丰富你的关系网，让关系网体现出“无巧不成书”的“剪不断理还乱”，这是一种有效的快速深化剧情的方法。当然，这样的“邪修捷径”是有其风险的，一旦失误，你得到的就可能是一团空洞无物却又不知所云的毛线球剧编，在过程中请务必自我审查，反复修改校对，并征求团队其他成员的意见，避免一意孤行写出糟糕的剧编。</p>
+</blockquote>
+<h3 id="角色"><a href="#角色" class="headerlink" title="角色"></a>角色</h3><h4 id="角色的定义"><a href="#角色的定义" class="headerlink" title="角色的定义"></a>角色的定义</h4><ul>
+<li>角色是拥有个性、目的、意志、情感并依此生活、思考和行动的个体。其意志、目的、情感、行动是推动游戏发展的原动力。</li>
+<li>表现其<strong>目的与意志</strong>以及<strong>向着目标奋勇前进的过程</strong>是最为体现编剧水平的工作。</li>
+</ul>
+<h4 id="角色设定表"><a href="#角色设定表" class="headerlink" title="角色设定表"></a>角色设定表</h4><ul>
+<li>角色设定能有效帮助原画师设计游戏形象，即使原画师还没有通读剧本，也能获得设计角色形象的绝大部分信息（事实上原画师开始工作的时候，几乎没有完整剧本）。</li>
+<li>角色经过设计师“可视化”后，编剧又能透过成型的角色重新审视故事，具体的可视化内容包括：名字、年龄、性格、特技、职业、弱点、相貌、口吻、头发、服装、体格、剧本上的设定。<ol>
+<li>名字<ul>
+<li>所谓人如其名，名字可以有效体现角色特征。</li>
+<li>决定游戏印象的重要原因之一就是发音（中文和日文还可以加入字形）。</li>
+</ul>
+</li>
+<li>年龄<ul>
+<li>用以表现角色之间的关系。</li>
+<li>赋予角色年龄本身具有的印象。</li>
+<li>例如：年龄相差一岁的兄弟和相差十五岁的兄弟，其关系自然不一样。</li>
+<li>角色年龄给人带来的细微变化：<ul>
+<li>一个例子是，莎士比亚特意将朱丽叶的年龄从原素材的17岁，改为13~14岁，以适配原作中朱丽叶的行为表现。</li>
+<li>又比如主角从17岁到18岁，在很多国家的法律里剧情可以完全不一样——许多成人游戏的角色年龄设定都卡在18岁的红线，即因如是。</li>
+<li>即使是相差一岁，29~30与49~50给人感觉也并不一样。某种程度上来说，这是一种心理认知的差距，其或许不完全理性，也并不基于事实，但是这一效应客观存在，并影响着我们的思维模式。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>职业<ul>
+<li>职业设定要利用人的既有印象和先入为主的概念。</li>
+<li>例如，职业的反差造成的深刻印象：<ul>
+<li>行事不择手段的警察；</li>
+<li>暗中成为杀手的医生；</li>
+<li>嘴巴喜欢飙车的老师。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>相貌、体格、与头发<ul>
+<li>相貌和体格的设定主要与故事相关。</li>
+<li>头发对角色的影响类似于缪勒莱耶错觉（读者一定见过那张图——看似一长一短实则等长的两个带箭头线段），应当有效加以利用——头发的作用在游戏策划处比相貌和体格更重要。</li>
+<li>角色的装扮和性格印象很大程度上取决于发型（还包括胡子和体毛）</li>
+</ul>
+</li>
+<li>性格<ul>
+<li>性格能够表现角色情感或行为的倾向。</li>
+<li>同时考虑性格的成瘾有助于创作叙事。</li>
+<li>定位型性格：某集团内特定立场带给他人的固有印象。定位型性格可以阐明角色立场，体现出角色的成长和变化。以刺客信条为例，艾吉奥在第二代表现为纨绔的富二代性格，在《兄弟会》种表现为有担当的统帅性格，而在《启示录》表现为追去真理的贤者性格。</li>
+<li>严格按照角色定位套用定位型性格会显得老套，有时候需要刻意地安排错位性格以打破人们的固有印象，从而使得角色形象更为立体。</li>
+</ul>
+</li>
+<li>特技、口吻与弱点<ul>
+<li>特技用来凸显角色与其他人的不同，有助于故事创作。</li>
+<li>弱点则更容易让玩家带入自己的情感、增加角色的亲近感——因为每个人都有弱点。</li>
+<li>口吻直接体现角色个性，也是确认各个角色之间区别的石蕊试纸</li>
+</ul>
+</li>
+<li>服装<ul>
+<li>服装在角色设定上威力惊人，不但能体现角色的年龄和性别，还能体现角色的背景、兴趣甚至思维方式。</li>
+</ul>
+</li>
+<li>剧本的设定<ul>
+<li>剧本的设定进一步强化角色的形象与性格变化。</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<blockquote>
+<h3 id="便签-6-1"><a href="#便签-6-1" class="headerlink" title="便签-6.1"></a>便签-6.1</h3><p>关于第五点中提到的“定位型性格”，熊硕老师没有在此详细展开说明，笔者在此提供一些参考资料便于读者理解：<br><em><strong>定位型性格是指角色在特定集团、关系网络或社会结构中，由其所处位置 (身份、角色定位) 所赋予的固有性格特征与行为模式。它不是角色的自然个性，而是由 “你是谁” 和 “你在群体中的位置” 共同决定的性格面具。</strong></em><br>可以认为，一个角色的“定位型性格”，其实来自于真实生活中我们对某一特定群体或某一身份所产生的思维惯性 &#x2F; 刻板印象，对“定位型性格”的应用其实也是心理学的研究范围。其具有三大特征：<br><strong>身份依附性：</strong> 角色的性格特点直接源自其身份定位（<em>如父亲、领袖、导师</em>），同时与角色在游戏中的功能定位息息相关（<em>如LOL中的布隆的保护性性格与其坦克身份强相关</em>）。<br><strong>预期一致性：</strong> 角色的性格一般符合玩家对角色定位的心理预期（<em>例如国王就应该威严，医生就应该仁慈</em>）。这将使得玩家可以快速识别角色类型并建立情感链接。<br><strong>行为导向性：</strong> 角色的定位型性格将直接指导角色的决策模式和行动逻辑，形成可预测的行为模式，增强游戏叙事的连贯性（<em>例如《荒野大镖客2》的飞鹰，其 “好战的印第安王子” 性格让玩家不难预测到他的鲁莽行为与死亡结局</em>）。<br><strong>从设计者角度，角色的定位型性格往往基于四个维度进行设计：关系定位性格（角色之间有父子 &#x2F; 兄弟 &#x2F; 恋人 &#x2F; 上司与员工等特殊关系）、功能定位性格（角色是剑士 &#x2F; 法师 &#x2F; 枪手 &#x2F; 坦克等功能性职业）、社会定位性格（角色具有贵族 &#x2F; 底层人 &#x2F; 特殊身份等社会地位）、叙事定位性格（角色是主角 &#x2F; 盟友 &#x2F; 对手等叙事身份）。</strong></p>
+<p>值得注意的是，<strong>一般正派角色性格上需要具备成长性，而反派角色的性格特点一般是固化并代表某种不变的价值观念的。</strong></p>
+<p>设计上，对角色性格一般进行<strong>由外而内的性格构建</strong>。</p>
+<ul>
+<li>需要先确定角色在游戏中的核心定位，给出其定位型性格的关键词。（例如：领袖） </li>
+<li>列出该定位的典型性格特征。（例如：领袖的领导力、决断力、果敢、责任等）</li>
+<li>加入个人特质进行差异化，以避免脸谱角色。</li>
+<li>调整性格以适应游戏的玩法需求。</li>
+</ul>
+<p>另外，值得注意的是，可以巧妙应用 <strong>“错位设计法”</strong>。其核心原理在于，再保持角色基本定位的前提下，故意引入与定位不符的性格特质，创造戏剧性反差：</p>
+<ul>
+<li>身份 - 性格错位：如 “懦弱的国王”” 善良的盗贼 “</li>
+<li>功能 - 行为错位：如 “冲动的法师”” 优柔寡断的战士 “</li>
+<li>关系 - 态度错位：如 “严厉的慈母”” 叛逆的孝子 “<br>这将有效增强角色辨识度，提高叙事张力和惊喜感，同时塑造立体的角色形象。</li>
+</ul>
+<p>最后，记得为角色的性格增添伴随其成长而变化的特点，比如主角从 “新手” 到 “英雄” 的成长历程，或是反派从 “喽啰” 到 “霸主” 的权力蜕变。</p>
+<p>总的来说，定位型性格在游戏设计中具有相当的价值，除了可以快速缩短玩家理解角色特点和行为逻辑的时间与学习成本之外，还能降低叙事成本、建立于角色的情感链接。此外，这样的设计还可以使角色性格与游戏机制形成闭环，也能让玩家的操作习惯与角色性格自然统一，增强游戏体验的一致性和代入感。   </p>
+</blockquote>
+<h3 id="角色定位"><a href="#角色定位" class="headerlink" title="角色定位"></a>角色定位</h3><p>单单有角色设定并不能让角色在剧本中活起来，角色需要定位，而设计者需要给每个角色分配立场。将一个角色视为一碗咖喱，有鸡肉、土豆、胡萝卜、洋葱、茄子，我们该如何看待这一碗咖喱？它是鸡肉咖喱还是土豆咖喱？抑或是胡萝卜咖喱、洋葱咖喱、茄子咖喱——这取决于我们对组成这碗咖喱的要素的定位。</p>
+<h4 id="五种角色定位"><a href="#五种角色定位" class="headerlink" title="五种角色定位"></a>五种角色定位</h4><ul>
+<li>系统直接关联的定位：<ul>
+<li>主角、待攻克角色、系统角色；</li>
+</ul>
+</li>
+<li>敌人的定位：<ul>
+<li>恶人角色、敌对角色、你那管角色、竞争者角色；</li>
+</ul>
+</li>
+<li>与主角同阵营的定位:<ul>
+<li>情侣角色、伙伴角色、家人角色；</li>
+</ul>
+</li>
+<li>给故事带来变化的定位：<ul>
+<li>契机角色、救星角色、叛徒角色、贤者角色；</li>
+</ul>
+</li>
+<li>当然，随着剧情发展，角色的定位并不是一成不变的。</li>
+</ul>
+<h4 id="主人公"><a href="#主人公" class="headerlink" title="主人公"></a>主人公</h4><ul>
+<li>主人公的定位是以玩家视角推动故事发展、玩家容易代入情感。</li>
+<li>主人公的行动和选择必须尽量尊重玩家的意志，因为主人公是玩家的化身。</li>
+<li><strong>换位型主人公</strong><ul>
+<li>应尽可能的朴素，刻画时不过于体现个性，增加玩家选择余地，甚至不露脸。</li>
+<li>适合高自由度，或者代入性极强、玩家选择余地极强的情况。</li>
+</ul>
+</li>
+<li><strong>角色扮演类主人公</strong><ul>
+<li>更接近于电影、电视剧的主人公情感代入。</li>
+<li>适合剧情流程较为固定，需要明确渲染主角的情况。</li>
+<li>适用于大部分角色扮演类游戏。</li>
+<li>主角个性较强，特点较为明显，不完全服从于玩家意志。</li>
+<li>避免使玩家失去热情的设定——比如完美无缺的外貌和性格、奇葩或者变态（<em>崔佛这种性格也就只有R星能驾驭了</em>）。</li>
+</ul>
+</li>
+</ul>
+<h4 id="待攻克角色"><a href="#待攻克角色" class="headerlink" title="待攻克角色"></a>待攻克角色</h4><ul>
+<li>待攻克角色的定位体现游戏的目的<ul>
+<li>恋爱游戏的恋爱对象（<em>Ciallo～ (∠・ω&lt; )⌒★</em>）；</li>
+<li>侦探游戏的凶手与黑幕；</li>
+<li>游戏剧情的最终Boss（或者任何一般Boss）</li>
+</ul>
+</li>
+<li>剧本上同一时期不要出现过多的待攻克角色对象，会让玩家失去目标。（<em>笔者真的玩不懂类银河恶魔城——明明有很多人要杀，但不知道该去哪杀谁</em>）</li>
+<li>待攻克角色的角色设定应细致，描写应当有魅力。</li>
+<li>待攻克角色有时候是敌人，有时候是同阵营角色。</li>
+</ul>
+<h4 id="系统角色"><a href="#系统角色" class="headerlink" title="系统角色"></a>系统角色</h4><ul>
+<li>系统角色的定位是负责让玩家和游戏系统进行交互的角色。</li>
+<li>系统角色是游戏系统和玩家之间的纽带，保障玩家能顺畅的体验游戏。<ul>
+<li>比如各种MMORPG新手村的引导员。</li>
+<li>或是神秘商人或是流浪商人。</li>
+</ul>
+</li>
+<li>系统角色的特殊用法，包括将不起眼的NPC、前代主角、亲密伙伴变为游戏的Boss，这其实是利用了玩家对系统角色不会变化的惯性思维。</li>
+</ul>
+<h4 id="敌人角色"><a href="#敌人角色" class="headerlink" title="敌人角色"></a>敌人角色</h4><ul>
+<li>敌人角色妨碍玩家达成游戏目的，从而使得故事更加有趣。</li>
+<li>强化主角与玩家达成目的的意志，燃起玩家热情。</li>
+<li>其描绘方法影响到主人公给人的形象——敌人角色经常被拿来和主角进行比较。（X和Y谁更强、谁更帅、谁更聪明……）</li>
+<li>利用敌人反衬主角。</li>
+<li>需要区分 <strong>“恶人角色”</strong> 与 <strong>“敌对角色”</strong> ——恶人角色（<em>如《荒野大镖客2》中的迈卡</em>）代表着纯粹的、混沌的、需要被讨伐的恶，是爽剧里死不回头的反派一号，是主角一定会击败甚至杀死的敌人；而敌对角色只是与主角存在利益冲突无法调和，从而产生对立的矛盾，其或许有自己的价值观与守则，有自己的正义性，甚至可能被主角转变为可靠的伙伴（<em>比如《荒野大镖客2》中的达奇——至少在二代结尾还算是做了一件人事</em>）</li>
+<li>另外，敌人角色中用于阻碍玩家游戏进度的角色被称为 <strong>“难关角色”</strong>，其主要以Boss形态出现。需要指出的是，并不是所有的敌人角色都是难关角色，仍以大镖客2中的达奇为例，其虽然是一个敌对角色（<em>考虑到害死了亚瑟，玩家眼里的达奇甚至有恶人角色的倾向</em>），但其并没有作为Boss或其他任何难以击败的角色出现在流程中，并阻碍玩家的流程进展。</li>
+</ul>
+<h4 id="情侣角色"><a href="#情侣角色" class="headerlink" title="情侣角色"></a>情侣角色</h4><ul>
+<li>特制的伙伴角色中与主人公有恋爱关系的角色，或者有可能发展出恋爱关系的角色。</li>
+<li>提升玩家达到目的的动力，给玩家恋爱的感觉（<em>一般颜值都不低</em>）。</li>
+<li>提升情侣角色所带来的游戏动力的方法：<ul>
+<li>给情侣角色安排特殊的境遇。</li>
+<li>让情侣角色保守秘密。</li>
+<li>为情侣角色和主人公设置特殊的关系。</li>
+</ul>
+</li>
+<li>在情侣角色与主人公之间设置障碍能提升玩家游戏的动力。<ul>
+<li>作为枷锁。</li>
+<li>设置竞争者，或者镜像角色。</li>
+</ul>
+</li>
+</ul>
+<h4 id="伙伴角色"><a href="#伙伴角色" class="headerlink" title="伙伴角色"></a>伙伴角色</h4><ul>
+<li>帮助主人公达成目的的“战友”。<ul>
+<li>要拥有主角不具有的能力与特点。</li>
+</ul>
+</li>
+<li>让主人公吐露意志或者感情的倾听者。<ul>
+<li>引出主人公的感情，增强感情的振幅。加强玩家的理解。</li>
+</ul>
+</li>
+<li>让主人公更显眼的“衬托”。<ul>
+<li>用自身魅力衬托主人公。</li>
+<li>用于主人公截然相反的特质衬托主人公。</li>
+</ul>
+</li>
+<li>创作伙伴角色的常用方法。<ul>
+<li>以敌对角色的身份登场（<em>废品回收.jpg</em>）</li>
+<li>成为或搬迁充分展现魅力，吊起玩家“想收为伙伴”的胃口。</li>
+</ul>
+</li>
+<li>伙伴角色切忌变成好好先生，导致故事平淡，顺风顺水。</li>
+<li>不要让角色变成失去必要性的死角色。</li>
+<li>避免死角色的方法：<ul>
+<li>牺牲 &#x3D; 通过死亡、负伤等性命攸关的行动来体现存在感。</li>
+<li>变脸 &#x3D; 通过突然改变定位来体现存在感（<em>比如黑化——没错，又是西部点子王</em>）</li>
+</ul>
+</li>
+<li>给敌人也有必要适当的安排伙伴角色以衬托大反派。</br></li>
+</ul>
+<p><strong><center>END </center></strong></p>
+</div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="Donate" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><span class="icon iconify" data-icon="ri:hand-coin-line"></span></span><div id="reward-comment">I'm so cute. Please give me money.</div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>Post author: </strong>Junwei LI</li><li class="post-copyright-link"><strong>Post link: </strong><a href="https://nandcpointfm.github.io/2025/12/27/DaoLun6/" title="关于《游戏学导论》的研学记录与个人思考 - ( 6 )">https://nandcpointfm.github.io/2025/12/27/DaoLun6/</a></li><li class="post-copyright-license"><strong>Copyright Notice: </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> unless otherwise stated.</li></ul></article><div class="post-nav"><div class="post-nav-item"></div><div class="post-nav-item"><a class="post-nav-next" href="/2025/12/25/DaoLun5/" rel="next" title="关于《游戏学导论》的研学记录与个人思考 - ( 5 )"><span class="post-nav-text">关于《游戏学导论》的研学记录与个人思考 - ( 5 )</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2019 – 2025 </span><span class="with-love" id="animate"><i></i></span><span class="author"> Junwei LI</span></div><div class="powered"><span>Powered by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v8.1.1</span><span class="footer-separator">|</span><span>Theme - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.11</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a></body></html>
